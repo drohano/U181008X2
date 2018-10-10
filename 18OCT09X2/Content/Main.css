@@ -1,3 +1,15 @@
 ﻿body {
+    text-decoration: none;
+    background-image: url("https://steamuserimages-a.akamaihd.net/ugc/806551805058343152/865D7986C1B1E9131A094EA6BF0EBAF0C43ECE4D/");
     
 }
+body p{
+    color:darkgray;
+    margin-right:70%;
+}
+body h2{
+    color:dimgray;
+}
+    body ul {
+        color: darkgray;
+    }
