@@ -9,12 +9,18 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
+
+
+
+    <script src="~/Scripts/jquery-3.0.0.js"></script>
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
     <link href="~/Content/Main.css" rel="stylesheet" />
+
+
 </head>
 <body>
     <nav class="navbar navbar-inverse" role="navigation">
-        <div class="container-fluid">
+        
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex-collapse">
                 <span class="sr-only">Toggle navigation</span>
@@ -24,14 +30,14 @@
             </button>
             @Html.ActionLink("Johan", "Index", "Home", new { area = "" }, new { @class = "navbar-brand" })
         </div>
-        <div class="collapse navbar-collapse navbar-ex-collapse" >
+        <div class="navbar-ex-collapse collapse navbar-collapse" >
             <ul class="nav navbar-nav">
                 <li>@Html.ActionLink("Home", "Index", "Home")</li>
                 <li>@Html.ActionLink("About", "About", "Home")</li>
                 <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
             </ul>
         </div>
-        </div>
+        
     </nav>   
 
   @RenderBody()
